@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-chi-ctor/tags). For example,
+
+```javascript
 import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@v0.2.1-esm/index.mjs';
 ```
 
@@ -259,7 +264,7 @@ y = chi.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@v0.2.1-esm/index.mjs';
+import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@esm/index.mjs';
 
 var chi = new Chi( 2.0 );
 
