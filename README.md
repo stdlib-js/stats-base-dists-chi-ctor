@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@deno/mod.js';
+import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@v0.2.1-deno/mod.js';
 ```
 
 #### Chi( \[k] )
@@ -254,7 +254,7 @@ y = chi.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@deno/mod.js';
+import Chi from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chi-ctor@v0.2.1-deno/mod.js';
 
 var chi = new Chi( 2.0 );
 
